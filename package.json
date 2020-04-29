@@ -1,0 +1,57 @@
+{
+  "name": "@arliteam/arli",
+  "version": "0.1.0",
+  "description": "JavaScript tools for an Arabic development",
+  "main": "build/arli.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest",
+    "prepare": "npm run build",
+    "trypublish": "npm publish || true"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arliteam/arli"
+  },
+  "author": "Mohamed Elkebir <contact@getsupercode.com> (https://getsupercode.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arliteam/arli/issues"
+  },
+  "homepage": "https://github.com/arliteam/arli",
+  "keywords": [
+    "library",
+    "es6",
+    "tool",
+    "functional",
+    "util",
+    "arabic",
+    "string"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "babel-preset-minify": "^0.5.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "jest": "^25.4.0",
+    "prettier": "^2.0.5",
+    "prettier-webpack-plugin": "^1.2.0",
+    "style-loader": "^1.2.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {},
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/scripts/testMock.js",
+      "\\.(css|less)$": "<rootDir>/scripts/testMock.js"
+    }
+  }
+}
