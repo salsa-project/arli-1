@@ -1,6 +1,6 @@
 /*!
  * 
- *   @arliteam/arli v0.1.2
+ *   @arliteam/arli v0.1.3
  *   https://github.com/arliteam/arli
  * 
  *   Copyright (c) Mohamed Elkebir (https://getsupercode.com)
