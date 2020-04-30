@@ -1,6 +1,6 @@
 {
   "name": "@arliteam/arli",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "JavaScript tools for an Arabic development",
   "main": "build/arli.js",
   "scripts": {
